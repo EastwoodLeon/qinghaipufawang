@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#046eb5</color>
+    <color name="colorPrimaryDark">#045d99</color>
+    <color name="colorAccent">@android:color/darker_gray</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="colorStar">#fdaa01</color>
+    <color name="state_item_pressed">#aaff0000</color>
+    <color name="state_item_normal">#44ff0000</color>
+    <!--王牌特工 主题颜色-->
+    <color name="theme_color_kingsman">#c9cbcc</color>
+    <!--羞羞的铁拳 主题颜色-->
+    <color name="theme_color_never_say_die">#d0af60</color>
+    <!--天才枪手 主题颜色-->
+    <color name="theme_color_gunner">#72808b</color>
+
+    <color name="inactivePrimaryButtonTextColor">#87c2e9</color>
+    <color name="activePrimaryButtonTextColor">@android:color/white</color>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">青海法治</string>
+
+    <string name="nav_title_1">电影</string>
+    <string name="nav_title_2">影院</string>
+    <string name="nav_title_3">发现</string>
+    <string name="nav_title_4">我的</string>
+</resources>

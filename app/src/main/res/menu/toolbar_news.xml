@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/express"
+            android:title="普法速递"
+            app:showAsAction="never"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/qinghai"
+            android:title="法治青海"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/cases"
+            android:title="以案释法"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/culture"
+            android:title="法治文化"
+            app:showAsAction="never" />
+    </group>
+
+</menu>

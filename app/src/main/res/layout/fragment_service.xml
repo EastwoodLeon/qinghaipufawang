@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/bing_pic_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <include layout="@layout/piece_service_1" />
+
+        <include layout="@layout/piece_service_2" />
+
+        <include layout="@layout/piece_service_3" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</FrameLayout>

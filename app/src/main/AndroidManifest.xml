@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pxkeji.qinghaipufawang">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--允许程序获取网络状态-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--允许程序访问WiFi网络信息-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--允许程序读写手机状态和身份-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--允许程序访问CellID或WiFi热点来获取粗略的位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="3ca66235ba7352d0b55c8907142a3245"/>
+
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity
+            android:name=".NewsDetailActivity"
+            android:theme="@style/NewsDetailActivityTheme">
+        </activity>
+        <activity android:name=".Service1Activity">
+        </activity>
+        <activity android:name=".LawsListActivity">
+        </activity>
+        <activity android:name=".LawDetailActivity">
+        </activity>
+        <activity android:name=".LawServiceListActivity">
+        </activity>
+        <activity android:name=".Service3Activity">
+        </activity>
+        <activity android:name=".BrowserActivity">
+        </activity>
+        <activity android:name=".WechatActivity">
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".SettingActivity">
+        </activity>
+        <activity android:name=".UserInfoActivity">
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.pxkeji.qinghaipufawang.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+        <activity android:name=".ChangeUserNameActivity">
+        </activity>
+        <activity android:name=".ChangeGenderActivity">
+        </activity>
+        <activity android:name=".ChangeIntroActivity">
+        </activity>
+        <activity android:name=".MessageActivity">
+        </activity>
+        <activity android:name=".UploadFileActivity">
+        </activity>
+        <activity android:name=".ChangePasswordActivity">
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapActivity">
+        </activity>
+    </application>
+
+</manifest>

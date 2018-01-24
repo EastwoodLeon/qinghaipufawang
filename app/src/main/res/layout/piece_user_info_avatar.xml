@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_header_container"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="头像"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/head"
+        android:layout_toLeftOf="@+id/iv_arrow"
+        android:layout_centerVertical="true"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_chevron_right_grey_24dp"/>
+</RelativeLayout>

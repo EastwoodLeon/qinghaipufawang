@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="wrap_content"
+                                              android:layout_gravity="center"
+                                              android:background="#faf6f6"
+                                              android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="确定要退出登录吗？"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/photodialog_btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#323232"
+        android:layout_marginTop="0.1dp"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/photodialog_btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#323232"
+        android:layout_marginTop="10dp"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

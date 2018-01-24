@@ -1,0 +1,37 @@
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_marginTop="10dp"
+>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+
+        android:gravity="left|center"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="17sp"
+        tools:text="省政府"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/more"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:paddingRight="10dp"
+        android:gravity="right|center"
+        android:textColor="@color/colorPrimary"
+        android:text="more >"
+        android:textSize="18sp"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

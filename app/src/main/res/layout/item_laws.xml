@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp"
+    android:layout_marginBottom="1dp"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        tools:text="中华人民共和国宪法 （二）"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        tools:text="2017-03-23"
+        android:gravity="end"/>
+</android.support.v7.widget.LinearLayoutCompat>
